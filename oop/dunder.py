@@ -39,8 +39,8 @@ class A:
     def __init__(self, number):
         self.number = number
 
-    def __eq__(self, other):
-        return self.number = number == other.number
+    # def __eq__(self, other):
+    #     return self.number = number == other.number
 class A:
     def __str__(self) -> str:
         return "A __REPR__"
